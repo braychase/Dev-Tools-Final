@@ -61,7 +61,50 @@
             <div class="text-center display-5">
               <div>Let us know what you thought of our page!</div>
             </div>
-            <div>
+            <!--This is the form-->
+            <div class="mt-5 mb-5 text-center border text bg-secondary ">
+              <form>
+                <div>
+                 Email
+                 <input type="email" placeholder="someone@hotmail.com" name="Email" id="email">
+                </div>
+                 <div>
+                 Are you satisfied with our page?
+                 <input type="radio" value="satisfied" name="customerSatisfaction" ><label>Yes</label>
+                 <input type="radio" value="notSatisfied" name="customerSatisfaction"><label>No</label>
+                </div> 
+                <div>
+                 How did you hear about us?
+                 <select id="aboutus">
+                     <option value="Friend">Friend</option>
+                     <option value="Colleague">Colleague</option>
+                     <option value="Family">Family</option>
+                     <option value="Ad">Advertisment</option>
+                     <option value="Other">Other</option>
+                 </select>
+                </div>
+                <div>
+                 Rate our page out of ten
+                 <input type="number" value="rateService" min="1" max="10" id="rate">
+                </div>
+                <div>
+                 How likely are you to view our page again?
+                 <input type="radio" name="likely"><label>Not likely</label>
+                 <input type="radio" name="likely"><label>Likely</label>
+                 <input type="radio" name="likely"><label>Very likely</label>
+                </div>
+                <div>
+                 Comments:
+                 <input type="text" name="Comments" id="comments">
+                </div>
+                <div>
+                 <button type="submit">Submit</button>
+                 <button type="reset">Reset</button>
+                </div>
+             </form>
+            </div>
+            <!--This is the contact info-->
+            <div class="text">
               <ul>
                 <li>Phone: (506)609-2699</li>
                 <li>Email: bchase01@mynbcc.ca</li>
